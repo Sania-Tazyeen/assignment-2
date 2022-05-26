@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor:"black">
+	<img src="earth.jpg" width="20%" usemap="#black">
+	<img src="mars.jpg" width="20%" usemap="#black">
+
+
+	<map name="#black">
+
+		<area shape="rect" coords="24,50,280,360" href="centerofearth.html">
+		<area shape="square" coords="24,34,24,34" href="mars.html">
+</map>
+
+<h2 align="center">Students List</h2>
+<table>
+	<style>
+	body{
+		background:white center fixed;
+		background-size:cover;
+	}
+	table,th,td{
+		width: 80px;
+		margin: auto;
+		border: 1px solid black;
+		border-collapse:collapse ;
+		text-align: center;
+		font-size: 30;
+	}
+
+	</style>
+	<tr>
+		<th>S.No</th>
+		<th>Name</th>
+		<th>Dept</th>
+		<th>Contact</th>
+		<th>Address</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>Mohammed</th>
+			<th>EEE</th>
+			<th>12334</th>
+			<th>Gulbarga</th>
+		</tr>
+		<tr>
+			<th>2</th>
+			<th>Izhan</th>
+			<th>CSE</th>
+			<th>32456</th>
+			<th>Bangalore</th>
+		</tr>
+		<th>3</th>
+		<th>Yusra</th>
+		<th>ISE</th>
+		<th>65733</th>
+		<th>Mangalore</th>
+
+</table>
+<br>
+<hr>
+
+
+
+
+
+<table border="1" cellspacing="0">
+
+<tr>
+		<th colspan="6" bgcolor="yellow"><i>Time Table</i></th>
+		</tr>
+
+<tr> 
+			<th rowspan="6" bgcolor="gray"><i><b>Hours</b></i></th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+		</tr>
+		<tr>
+			<td>English</td>
+			<td>Maths</td>
+			<td>EVS</td>
+			<td>Computer</td>
+			<td>Hindi</td>
+		</tr>
+		<tr>
+			<td>English</td>
+			<td>Maths</td>
+			<td>EVS</td>
+			<td>Computer</td>
+			<td>Sports</td>
+		</tr>
+		<tr>
+		<th colspan ="6" bgcolor="yellow" ><i><b>Lunch</b></i></th>
+	</tr>
+	<tr>
+		    <td>English</td>
+			<td>Maths</td>
+			<td>Hindi</td>
+			<td>Computer</td>
+			<td rowspan="2">Sports</td>
+		</tr>
+		<tr>
+			<td>Hindi</td>
+			<td>Maths</td>
+			<td>EVS</td>
+			<td>Computer</td>
+	
+		</tr>
+
+	</table>
+	
+<canvas id="Square">
+Your browser does not support the canvas tag.
+</canvas>
+
+<script>
+var canvas = document.getElementById("Square");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(80, 80, 80, 80);
+</script>
+<style>
+	canvas{
+		background: #ddd;
+	}
+</style>
+</body>
+</html>
